@@ -4,15 +4,56 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Millburn Robotics</title>
+		<title>Millburn Robotics - Welcome</title>
 		<meta name="description" content="Blueprint: Responsive Full Width Tabs" />
 		<meta name="keywords" content="responsive tabs, full width tabs, template, blueprint" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	</head>
+    
+    <style>
+        h1 {
+            margin: auto;
+            display: block;
+        }
+        .hidden {
+            display: none;
+        }
+        .hashidden:hover .hidden {
+            display: block;
+        }
+        
+        .top {
+            display: block;
+            width: 100%;
+            height: 240px;
+        }
+        .left, .right {
+            display: inline-block;
+            width: 49%;
+            height: 600px;
+            border: black;
+        }
+    </style>
 	<body>
-        <p><a href="vex/vex_home.html">Vex Robotics</p>
-        <p><a href="first/first_home.html">First Tech Challenge</p>
+        <div id="top"> 
+            <h1>Millburn Robotics</h1>
+        </div>
+        <div class="left hashidden">
+            <h1>FTC</h1>
+            <span class="hidden">
+                <h2>Team 8405!</h2>    
+            </span>
+        </div>
+        
+        <div class="right hashidden">
+            <h1>VEX</h1>
+            <span class="hidden">
+                <h2>This team doesn't exist yet!</h2>
+            </span>
+        </div>
+        <!--<p><a href="vex/vex_home.html">Vex Robotics</p>
+        <p><a href="first/first_home.html">First Tech Challenge</p>-->
 	</body>
 </html>
