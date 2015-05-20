@@ -28,7 +28,7 @@ html, body, .container, .scroller {
 .menu-trigger {
 	position: relative;
 	padding-left: 60px;
-	font-size: 0.9em;
+	font-size: 1.8em;
 }
 
 .menu-trigger:before {
