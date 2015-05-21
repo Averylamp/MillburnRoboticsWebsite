@@ -1,0 +1,30 @@
+.inlineBlock {
+    display: inline-block;
+}
+
+#menu {
+    width: 20%;
+    padding-left: 20px;
+}
+
+#title {
+    width: 60%;
+    margin: auto;
+}
+
+#logo {
+    float: right;
+}
+
+.scroller {
+	overflow-y: scroll;
+    position: relative;
+    padding: 40px 20px 250px 20px;
+}
+
+
+
+
+.container {
+    max-height: 100%;
+}
