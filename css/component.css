@@ -10,6 +10,14 @@ html, body, .container, .scroller {
 	height: 100%;
 }
 
+.scroller {
+	overflow-y: scroll;
+}
+
+.scroller,
+.scroller-inner {
+	position: relative;
+}
 
 .container {
 	position: relative;
