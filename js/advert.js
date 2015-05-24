@@ -3,7 +3,7 @@
 
 setInterval(function(){flash()}, 2000);
 document.querySelector("#advertText").style.display = "inline-block";
-document.querySelector("#advertText").style.marginBottom = 100;
+document.querySelector("#advertText").style.marginBottom = "100";
 document.querySelector("#advert").style.color.margin = "20";
 function flash(){
     document.querySelector("#advertText").style.color = "#ff0000";
