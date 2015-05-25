@@ -14,24 +14,26 @@
 }
 
 .logo {
-    display: inline;
+    display: inline-block;
+    float: right;
     max-height: 80px;
     max-width: 80px;
-    float: right;
     padding: 0px;
     margin: 10px;
 }
 
-.logo img{
+.logo a img {
     max-height: 100%;
     max-width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
 .scroller {
 	overflow-y: scroll;
     position: relative;
 
-    padding: 70px 50px 150px;
+    padding: 70px 50px 0px;
 }
 
 .top-bar {
@@ -46,8 +48,29 @@
 
 
 .footer {
-    display: inline;
-    height: 50px;
+    display: block;
+    height: 275px;
     width: 100%;
+    border-top: 3px solid #131367;
 }
 
+#footer-text {
+    display: block;
+    width: 30%;
+    margin: 0px;
+    padding: 0px;
+    margin: 0% 35%;
+}
+
+.footer div h1 {
+    width:100%;
+}
+
+.footer #copyright {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    padding: 0;
+    margin: 3% 25% 0%;
+    color:cadetblue;
+}
