@@ -3,14 +3,39 @@
 }
 
 #menu {
-    width: 20%;
+    display: inline-block;
+    float:left;
+    width: 10%;
     height: 100%;
+}
+
+#mp-pusher .top-bar{
+    max-height: 15%;
 }
 
 #title {
     width: 59%;
     height: 100%;
     margin: auto;
+}
+
+#banner {
+    display: inline-block;
+    max-width: 40%;  
+    margin: 0% 18%;
+}
+
+#millburnLogo {
+    display: inline;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0px;
+    margin: 10px 0px 0px 8%;
+}
+
+#millburnLogo img {
+    max-height: 10%;
+    max-width: 5%;
 }
 
 .logo {
@@ -44,6 +69,7 @@
 
 .container {
     max-height: 100%;
+    background-color: #2C4E84;
 }
 
 
