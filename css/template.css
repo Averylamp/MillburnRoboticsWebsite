@@ -1,7 +1,9 @@
 .inlineBlock {
     display: inline-block;
 }
-
+/*--------------------------------------------------
+                    HEADER
+--------------------------------------------------*/
 #menu {
     display: inline-block;
     float:left;
@@ -38,27 +40,13 @@
     max-width: 5%;
 }
 
-.logo {
-    display: inline-block;
-    float: right;
-    max-height: 80px;
-    max-width: 80px;
-    padding: 0px;
-    margin: 10px;
-}
-
-.logo a img {
-    max-height: 100%;
-    max-width: 100%;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
+/*--------------------------------------------------
+                        BODY
+--------------------------------------------------*/
 .scroller {
 	overflow-y: scroll;
     position: relative;
-
-    padding: 70px 50px 0px;
+    padding: 10px 50px 0px;
 }
 
 .top-bar {
@@ -72,6 +60,10 @@
     background-color: #2C4E84;
 }
 
+
+/*--------------------------------------------------
+                        FOOTER
+--------------------------------------------------*/
 
 .footer {
     display: block;
@@ -91,6 +83,23 @@
 .footer div h1 {
     width:100%;
 }
+
+.logo {
+    display: inline-block;
+    float: right;
+    max-height: 80px;
+    max-width: 80px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.logo a img {
+    max-height: 100%;
+    max-width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
 
 .footer #copyright {
     display: inline-block;
