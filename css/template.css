@@ -20,10 +20,11 @@
 }
 
 .scroller {
-	
-    /*overflow-y: scroll;
-    position: relative;*/
-    padding: 70px 50px 150px 50px;
+	overflow-y: scroll;
+    position: relative;
+
+    padding: 70px 50px 150px;
+
 }
 
 .top-bar {
@@ -36,6 +37,7 @@
     max-height: 100%;
 }
 
+<<<<<<< HEAD
 footer{
     display:block;
     padding-top: 50px;
@@ -45,3 +47,11 @@ footer{
     display:inline;
     text-align:center;
 }
+=======
+
+.footer {
+    height: 200px;
+    width: 100%;
+}
+
+>>>>>>> 4286b188a14fc712e56b2c8913e6575b8cac728a
