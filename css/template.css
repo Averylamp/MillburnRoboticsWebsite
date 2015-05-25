@@ -39,5 +39,9 @@
 footer{
     display:block;
     padding-top: 50px;
-    
+}
+
+.footer-text{
+    display:inline;
+    text-align:center;
 }
