@@ -13,10 +13,18 @@
     margin: auto;
 }
 
-#logo {
-    height: 100%;
-    width: 20%;
+.logo {
+    display: inline;
+    max-height: 80px;
+    max-width: 80px;
     float: right;
+    padding: 0px;
+    margin: 10px;
+}
+
+.logo img{
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .scroller {
@@ -24,7 +32,6 @@
     position: relative;
 
     padding: 70px 50px 150px;
-
 }
 
 .top-bar {
@@ -37,21 +44,10 @@
     max-height: 100%;
 }
 
-<<<<<<< HEAD
-footer{
-    display:block;
-    padding-top: 50px;
-}
-
-.footer-text{
-    display:inline;
-    text-align:center;
-}
-=======
 
 .footer {
-    height: 200px;
+    display: inline;
+    height: 50px;
     width: 100%;
 }
 
->>>>>>> 4286b188a14fc712e56b2c8913e6575b8cac728a
