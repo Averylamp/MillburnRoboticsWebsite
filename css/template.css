@@ -4,25 +4,31 @@
 
 #menu {
     width: 20%;
-    padding-left: 20px;
+    height: 100%;
 }
 
 #title {
-    width: 60%;
+    width: 59%;
+    height: 100%;
     margin: auto;
 }
 
 #logo {
+    height: 100%;
+    width: 20%;
     float: right;
 }
 
-.scroller {
+/*.scroller {
 	overflow-y: scroll;
     position: relative;
     padding: 40px 20px 250px 20px;
+}*/
+
+.top-bar {
+    max-width: 99%;
+    text-align: center;
 }
-
-
 
 
 .container {
