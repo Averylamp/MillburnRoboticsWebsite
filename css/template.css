@@ -54,6 +54,7 @@
 /*--------------------------------------------------
                         BODY
 --------------------------------------------------*/
+<<<<<<< HEAD
 .wrap {
     height: 100%;
 }
@@ -65,19 +66,13 @@
     position: absolute;
     z-index: 9999;
 }
+=======
+>>>>>>> 3ab6864bdfd6862d072f4ca4279bff0128c99edf
 
 .scroller {
-    display: block;
 	overflow-y: scroll;
     position: relative;
-}
-
-.scroller p{
-     margin: 10px 50px;   
-}
-
-.scroller-inner {
-    margin-top: 15%;
+    padding: 10px 50px 0px;
 }
 
 .top-bar {
