@@ -18,7 +18,6 @@
     background-color: #2C4E84;
     max-height: 100px;
     min-height: 7%;
-    position: absolute;
 }
 
 #title {
@@ -54,29 +53,11 @@
 /*--------------------------------------------------
                         BODY
 --------------------------------------------------*/
-.wrap {
-    height: 100%;
-}
-
-.top-bar {
-    width: 100%;
-    height: 20%;
-    display: block;
-    z-index: 9999;
-}
 
 .scroller {
-    display: block;
 	overflow-y: scroll;
     position: relative;
-}
-
-.scroller p{
-     margin: 10px 50px;   
-}
-
-.scroller-inner {
-    margin-top: 15%;
+    padding: 10px 50px 0px;
 }
 
 .top-bar {
