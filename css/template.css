@@ -71,6 +71,10 @@
     position: relative;
 }
 
+.scroller p{
+     margin: 10px 50px;   
+}
+
 .scroller-inner {
     margin-top: 15%;
 }
