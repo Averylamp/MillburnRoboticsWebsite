@@ -1,6 +1,8 @@
 .inlineBlock {
     display: inline-block;
 }
+
+
 /*--------------------------------------------------
                     HEADER
 --------------------------------------------------*/
@@ -13,6 +15,7 @@
 
 #mp-pusher .top-bar{
     max-height: 15%;
+    background-color: #2C4E84;
 }
 
 #title {
@@ -43,6 +46,7 @@
 /*--------------------------------------------------
                         BODY
 --------------------------------------------------*/
+
 .scroller {
 	overflow-y: scroll;
     position: relative;
@@ -57,7 +61,8 @@
 
 .container {
     max-height: 100%;
-    background-color: #2C4E84;
+    color: #2C4E84;
+    background-color: #ffffff;
 }
 
 
