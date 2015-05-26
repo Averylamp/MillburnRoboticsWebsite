@@ -16,6 +16,8 @@
 #mp-pusher .top-bar{
     max-height: 15%;
     background-color: #2C4E84;
+    max-height: 100px;
+    min-height: 7%;
 }
 
 #title {
@@ -23,25 +25,30 @@
     height: 100%;
     margin: auto;
 }
+#navIcon {
+    margin: auto;
+    max-height: 100px;
+    min-height: 7%;
+    max-width:20%;
+    display: inline;
+}
 
 #banner {
-    display: inline-block;
-    max-width: 40%;  
-    margin: 0% 18%;
+    display: inline;
+    max-width: 70%;  
+    max-height: 100px;
+    min-height: 7%;
 }
 
 #millburnLogo {
     display: inline;
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 100px;
+    max-width: 10%;
     padding: 0px;
-    margin: 10px 0px 0px 8%;
+    margin: 0px 0px 10px 8%;
 }
 
-#millburnLogo img {
-    max-height: 10%;
-    max-width: 5%;
-}
+
 
 /*--------------------------------------------------
                         BODY
