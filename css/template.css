@@ -18,7 +18,6 @@
     background-color: #2C4E84;
     max-height: 100px;
     min-height: 7%;
-    position: absolute;
 }
 
 #title {
@@ -54,22 +53,9 @@
 /*--------------------------------------------------
                         BODY
 --------------------------------------------------*/
-<<<<<<< HEAD
-.wrap {
-    height: 100%;
-}
-
-.top-bar {
-    width: 100%;
-    height: 20%;
-    display: block;
-    position: absolute;
-    z-index: 9999;
-}
-=======
->>>>>>> 3ab6864bdfd6862d072f4ca4279bff0128c99edf
 
 .scroller {
+    height: 89%;
 	overflow-y: scroll;
     position: relative;
     padding: 10px 50px 0px;
