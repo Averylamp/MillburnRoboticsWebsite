@@ -20,7 +20,7 @@
 }
 #mp-pusher .top-bar{
     position: relative;
-    height: 17%;
+    height: 14%;
     max-height: 20vw;
     background-color: #2C4E84;
     text-align: : center;
@@ -41,13 +41,14 @@
 #banner {
     display: inline;
     position: absolute;
-    float: left;
-    left: 21%;
-    top: 25%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     max-width: 60%; 
     max-height: 100px;
     min-height: 30px;
-
 }
 
 #millburnLogo {
@@ -68,16 +69,17 @@
 --------------------------------------------------*/
 
 .scroller {
-    position: relative;
-    max-height: 82.8%;
+    position: absolute;
+    max-height: 88%;
     float: right;
 	overflow-y: scroll;
 }
 
 .scroller-inner{
     text-indent: 4em;  
-        margin: 10px 50px 0px;
+    margin: 10px 50px 0px;
 }
+
 .container {
     height: 100%;
     color: #2C4E84;
