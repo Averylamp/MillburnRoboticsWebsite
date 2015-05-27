@@ -34,9 +34,7 @@
 }
 #navIcon {
     height: 3px;
-    max-width: 80%;
-    max-width: 20%;
-    
+    width: 15%;
     display: inline;
 }
 
@@ -44,25 +42,23 @@
     display: inline;
     position: absolute;
     float: left;
-    margin: 50px 0px 0px 12%;
-    padding: 20px 0 0 0;
+    left: 21%;
+    top: 25%;
     max-width: 60%; 
-    margin-top: 1%;
     max-height: 100px;
     min-height: 30px;
 
 }
 
 #millburnLogo {
-    position: relative;
+    position: absolute;
     display: inline;
     float: right;
+    right: 2%;
+    top: 12%;
     max-height: 80%;
     min-height: 60%;
     max-width: 15%;
-    
-    padding: 0px;
-    margin: 1% 1% 0 0;
 }
 
 
@@ -72,7 +68,8 @@
 --------------------------------------------------*/
 
 .scroller {
-    height: 82%;
+    max-height: 88%;
+    min-height: 82%;
     float: right;
 	overflow-y: scroll;
     position: relative;
