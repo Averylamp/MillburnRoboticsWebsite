@@ -10,11 +10,10 @@
     display: inline-block;
     float:left;
     width: 10%;
-    height: 100%;
+    height: 5px;
 }
 
 #mp-pusher .top-bar{
-    max-height: 15%;
     background-color: #2C4E84;
     max-height: 100px;
     min-height: 7%;
@@ -26,11 +25,10 @@
     margin: auto;
 }
 #navIcon {
-    margin: auto;
+    display: inline;
     max-height: 100px;
     min-height: 7%;
-    max-width:20%;
-    display: inline;
+    
 }
 
 #banner {
@@ -41,9 +39,10 @@
 }
 
 #millburnLogo {
+    float: right;
     display: inline;
     max-height: 100px;
-    max-width: 10%;
+    max-width: 11%;
     padding: 0px;
     margin: 0px 0px 10px 8%;
 }
@@ -56,13 +55,14 @@
 
 .scroller {
     height: 89%;
+    float: right;
 	overflow-y: scroll;
     position: relative;
     padding: 10px 50px 0px;
 }
 
 .top-bar {
-    max-width: 99%;
+    max-width: 100%;
     text-align: center;
 }
 
