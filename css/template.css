@@ -68,20 +68,16 @@
 --------------------------------------------------*/
 
 .scroller {
-    max-height: 88%;
-    min-height: 82%;
+    position: relative;
+    max-height: 82.8%;
     float: right;
 	overflow-y: scroll;
-    position: relative;
-    padding: 10px 50px 0px;
 }
 
-/*.top-bar {
-    max-width: 99%;
-    text-align: center;
+.scroller-inner{
+    text-indent: 4em;  
+        margin: 10px 50px 0px;
 }
-*/
-
 .container {
     height: 100%;
     color: #2C4E84;
