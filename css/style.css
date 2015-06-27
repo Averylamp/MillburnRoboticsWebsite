@@ -1,0 +1,29 @@
+
+h2 {
+    font-size: 2.5em;
+    margin: 0 0;
+    font-weight: 100;
+    color: #e74c3c;
+}
+
+
+headerStyle {
+    font-size: 4em;
+    margin: 0 0;
+    text-align: center;
+    font-weight: 150;
+    color: #FFFFFF;
+}
+
+h3.sp {
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h4 {
+    font-size: 1.75em;
+    text-align: center;
+    margin: 0 0;
+    font-weight: 800;
+}
