@@ -70,7 +70,7 @@
 
 .scroller {
     position: absolute;
-    max-height: 88%;
+    max-height: 86%;
     float: right;
 	overflow-y: scroll;
 }
