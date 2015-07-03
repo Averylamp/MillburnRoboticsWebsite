@@ -47,12 +47,14 @@ h4 {
     width: 45%;
     margin: 2.5%;
     color: black;
-    background-color: azure    
+    background-color: lavender;
 }
 
 #TeamGallery li a h4{
-    text-align: center;
-    padding-right: 10%;
+    clear: both;
+    text-align: left;
+    font-weight: 100;
+    font-size: 20px;
     
 }
 #TeamGallery li a h5{
