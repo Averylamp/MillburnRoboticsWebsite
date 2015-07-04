@@ -71,12 +71,11 @@
 .scroller {
     position: absolute;
     max-height: 86%;
-    float: right;
 	overflow-y: scroll;
 }
 
 .scroller-inner{
-    text-indent: 4em;  
+/*    text-indent: 4em;  */
     /*margin: 10px 50px 0px;*/
 }
 

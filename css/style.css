@@ -23,7 +23,7 @@ h3.sp {
 
 h4 {
     font-size: 1.75em;
-    margin: 0 0;
+    margin: 5% 5%;
     font-weight: 800;
 }
 
@@ -51,14 +51,13 @@ h4 {
 
 #TeamGallery li a h4{
     clear: both;
-    text-align: left;
+    text-align: center;
     font-weight: 100;
     font-size: 20px;
     
 }
 #TeamGallery li a h5{
     text-align: center;
-    padding-right: 10%;
     
 }
 
