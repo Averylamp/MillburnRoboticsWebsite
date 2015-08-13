@@ -1,0 +1,13 @@
+name: Millburn Robotics
+author: Millburn Robotics
+
+markdown: redcarpet
+markdown_ext: md
+redcarpet:
+    extensions: ["disable_indented_code_blocks", "space_after_headers", "with_toc_data"]
+
+permalink: /blog/:date/:title
+highlighter: null
+
+paginate: 8
+paginate_path: /page-:num
