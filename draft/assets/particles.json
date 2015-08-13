@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 40,
+      "value": 30,
       "density": {
         "enable": true,
         "value_area": 800
@@ -31,17 +31,17 @@
       "anim": {
         "enable": true,
         "speed": 1,
-        "opacity_min": 0.1,
+        "opacity_min": 0,
         "sync": false
       }
     },
     "size": {
-      "value": 8,
-      "random": false,
+      "value": 15,
+      "random": true,
       "anim": {
         "enable": false,
-        "speed": 100,
-        "size_min": 0.1,
+        "speed": 80,
+        "size_min": 5,
         "sync": false
       }
     },
@@ -54,7 +54,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 1.5,
       "direction": "top",
       "random": false,
       "straight": true,
@@ -75,10 +75,10 @@
         "mode": "repulse"
       },
       "onclick": {
-        "enable": false,
+        "enable": true,
         "mode": "push"
       },
-      "resize": false
+      "resize": true
     },
     "modes": {
       "grab": {
@@ -89,9 +89,9 @@
       },
       "bubble": {
         "distance": 800,
-        "size": 80,
+        "size": 5,
         "duration": 2,
-        "opacity": 8,
+        "opacity": 0.8,
         "speed": 3
       },
       "repulse": {
