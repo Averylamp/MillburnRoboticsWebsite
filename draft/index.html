@@ -2,42 +2,43 @@
 <html>
 
 <head>
+	<title>Home | Millburn Robotics</title>
+<meta name="viewport" content="width=device-width">
 
-	<title>Millburn Robotics</title>
+<link rel="shortcut icon" href="/img/favicon.png" />
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
 
-	<meta name="viewport" content="width=device-width">
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 
-	<link rel="shortcut icon" href="/img/favicon.png" />
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" href="/css/main.css">
 
-	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-	<script src="/js/main.js"></script>
-
+<script src="/js/main.js"></script>
 </head>
 
 <body class="home">
-
+	   		
 	<div id="header">
-		<h1 class="logo">millburn robotics</h1>
+		<h1 class="logo"><a href="/">millburn robotics</a></h1>
 	</div>
+		   		
 
 	<div id="nav">
 		<ul class="nav-elements">
 			<li class="logo">
-				millburn robotics
+				<a href="/">millburn robotics</a>
 			</li>
+			<li class="menu-button" onclick="javascript:toggleNav(this, false)">&#8801;</li>
 			<li>
 				<ul class="links">
-					<li>Home</li>
-					<li>Our Team</li>
-					<li>Gallery</li>
-					<li>Blog</li>
-					<li>Our Sponsors</li>
-					<li>Contact Us</li>
+					<li><a href="/">Home</a></li>
+					<li><a href="/our-team">Our Team</li>
+					<li><a href="/gallery">Gallery</li>
+					<li><a href="/blog">Blog</li>
+					<li><a href="/our-sponsors">Our Sponsors</li>
+					<li><a href="/contact-us">Contact Us</li>
 				</ul>
 			</li>
 			<li>
@@ -49,6 +50,15 @@
 		</ul>
 	</div>
 
+
+	<script type="text/javascript">
+		document.ready = function() {
+			particlesJS.load('header', 'assets/particles.json', function() {});
+		}
+	</script>
+	    	
 </body>
 
 </html>
+
+
