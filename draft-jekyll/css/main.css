@@ -35,6 +35,12 @@ a {
 	height: 100%;
 	margin: 0;
 	background: linear-gradient(45deg, #2532F5, #07092F);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 #header .logo {
