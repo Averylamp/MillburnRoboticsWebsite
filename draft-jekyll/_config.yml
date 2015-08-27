@@ -6,7 +6,7 @@ markdown_ext: md
 redcarpet:
     extensions: ["disable_indented_code_blocks", "space_after_headers", "with_toc_data"]
 
-permalink: /blog/:date/:title
+permalink: /blog/:year/:month/:day/:title
 highlighter: null
 
 paginate: 8
