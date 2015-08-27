@@ -4,7 +4,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	color: white;
+	color: #202020;
 	font-family: 'Lato';
 }
 
@@ -19,6 +19,7 @@ a {
 
 .logo {
 	font-family: 'Blade Runner';
+	color: white;
 }
 
 /* FONTS */
@@ -61,6 +62,7 @@ a {
 #nav {
 	width: 100%;
 	background: #202020;
+	color: white;
 }
 
 #nav ul {
@@ -154,3 +156,41 @@ body.home {
 	margin: auto;
 }
 
+/* PAGE HEADER */
+
+header {
+	background: black;
+	color: white;
+	text-align: center;
+	height: 100px;
+	padding: 100px;
+}
+
+header h1 {
+	font-size: 400%;
+}
+
+
+/* BLOG PAGE */
+
+.blog ul.posts {
+	list-style-type: none;
+	padding-left: 0;
+	padding-top: 50px;
+	max-width: 800px;
+	margin: auto;
+}
+
+.blog ul.posts li {
+	padding: 20px;
+}
+
+
+/* POST PAGE */
+
+.post .content {
+	padding: 50px;
+	max-width: 800px;
+	margin: auto;
+
+}

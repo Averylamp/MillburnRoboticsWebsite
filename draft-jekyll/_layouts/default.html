@@ -9,11 +9,16 @@
 
 	   		{% if page.home %}
 	   			{% include header.html %}
+	   			{% include nav.html %}
+	   		{% else %}
+	   			{% include nav.html %}
+	   			{% include page-header.html %}
 	   		{% endif %}
 
-	   		{% include nav.html %}
 
-	    	{{ content }}
+	   		<div class="content">
+	    		{{ content }}
+	    	</div>
 	    	
 </body>
 
