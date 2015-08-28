@@ -1,17 +1,17 @@
 {
   "particles": {
     "number": {
-      "value": 30,
+      "value": 20,
       "density": {
-        "enable": true,
-        "value_area": 800
+        "enable": false,
+        "value_area": 400
       }
     },
     "color": {
       "value": "#ffffff"
     },
     "shape": {
-      "type": "circle",
+      "type": "image",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -20,9 +20,9 @@
         "nb_sides": 5
       },
       "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
+        "src": "../img/flame.png",
+        "width": 800,
+        "height": 800
       }
     },
     "opacity": {
@@ -36,8 +36,8 @@
       }
     },
     "size": {
-      "value": 15,
-      "random": true,
+      "value": 800,
+      "random": false,
       "anim": {
         "enable": false,
         "speed": 80,
@@ -46,7 +46,7 @@
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false,
       "distance": 300,
       "color": "#ffffff",
       "opacity": 0.2,
@@ -54,16 +54,16 @@
     },
     "move": {
       "enable": true,
-      "speed": 1.5,
+      "speed": 8,
       "direction": "top",
       "random": false,
       "straight": true,
       "out_mode": "out",
       "bounce": false,
       "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
+        "enable": true,
+        "rotateX": 200,
+        "rotateY": 200
       }
     }
   },
@@ -75,7 +75,7 @@
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true
