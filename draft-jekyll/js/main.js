@@ -1,25 +1,25 @@
-$(window).load(
-	function() {
+$(window).load(function() {
+	$(window).scrollTop(0);
 
-		$(window).scrollTop(0);
+	$(window).resize(function() {
+		// shouldn't we just avoid having
+		$('#nav ul.links li, #nav ul.social').removeAttr('style');
+	});
+});
 
-		$(window).resize(function() {
-			$('#nav ul.links li, #nav ul.social').removeAttr('style');
-		});
+var toggleNav = function(DOMObject, isOpen) {
+  if (isOpen) {
+    $('#nav ul.links li, #nav ul.social').hide();
 
-    }
+		DOMObject.click(function() {
+      toggleNav(this, false);
+    }.bind(this));
+  }
 
-);
-
-var toggleNav = function(x, open) {
-    if (open) {
-        $('#nav ul.links li, #nav ul.social').css('display', 'none');
-        x.setAttribute('onclick', "javascript:toggleNav(this, false);")
-    }
-		
 	else {
-    	$('#nav ul.links li, #nav ul.social').css('display', 'block');
-    	x.setAttribute('onclick', "javascript:toggleNav(this, true);")
+  	$('#nav ul.links li, #nav ul.social').css('display', 'block');
+    DOMObject.click(function() {
+      toggleNav(this, true);
+    }.bind(this));
 	}
-}
-
+};
